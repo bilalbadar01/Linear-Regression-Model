@@ -17,7 +17,7 @@ def linear_model():
 if __name__ == '__main__':
     m=0
     b=0
-    with open('/app/model.pkl', 'rb') as f:
+    with open('path of model.pkl file', 'rb') as f:
         m, b = pickle.load(f)
     
-app.run(host='127.0.0.1', port=5000)
+    app.run(port=5000)
