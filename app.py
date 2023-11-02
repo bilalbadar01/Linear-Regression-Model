@@ -20,4 +20,4 @@ if __name__ == '__main__':
     with open('/app/model.pkl', 'rb') as f:
         m, b = pickle.load(f)
     
-    app.run(host='127.0.0.1', port=5000)
+    app.run(host='0.0.0.0', port=5000)
